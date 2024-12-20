@@ -164,7 +164,7 @@ body {
 
 /* ===== Profileセクション ===== */
 .profile {
-  padding: 90px 0;
+  padding: 110px 0;
   text-align: center;
 }
 
@@ -192,8 +192,8 @@ body {
   display: flex; /* Flexboxを適用 */
   align-items: flex-start; /* 揃え */
   justify-content: flex-start; /* 揃え */
-  gap: 30px; /* 要素間の余白 */
-  margin-top: 20px;
+  gap: 185px; /* 要素間の余白 */
+  margin-top: 30px;
 }
 
 * {
@@ -228,3 +228,6 @@ body {
 }
 
 /* 親要素に FlexBox（display: flex）を適用 */
+.img_and_myname_and_myskill {
+  display: flex;
+}
