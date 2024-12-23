@@ -199,26 +199,36 @@ body {
 * {
   box-sizing: border-box;
   margin: 0px;
+  padding: 30px 0;
   padding: 0px;
 }
 
 .profile-image {
    width: 300px;
    height: 300px;
-   object-fit: cover;
-   border-radius: 50%; /* 画像を円形に */
+   background-position: center;
+ }
+
+ .profile {
+  width: 800px;  /* Profileセクションの横幅を 800pxにする */
+  margin: 0 auto;  /* Profileセクションを画面の中央に配置する */
 }
 
+/* 親要素に FlexBox（display: flex）を適用 */
 .img_and_myname_and_myskill {
   display: flex;
 }
 
 .profile-text {
   text-align: left; /* テキストを中央揃え */
+  width: 960px; /* 横幅960px */
+  height: 70px; /* 高さ70px */
+  margin: 0 auto;  /* 中央寄せ */
   line-height: 30px; /* 行間 */
   max-width: 600px; /* テキスト幅を制限 */
   flex: 1 1 0%;
 }
+
 
 .profile-name,
 .profile-skill {
