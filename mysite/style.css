@@ -164,7 +164,8 @@ body {
 
 /* ===== Profileセクション ===== */
 .profile {
-  padding: 110px 0;
+  padding-top: 110px; /* 上部の空欄 */
+  padding-bottom: 90px; /* 下部の空欄（任意のサイズに変更） */
   text-align: center;
 }
 
@@ -210,7 +211,7 @@ body {
  }
 
  .profile {
-  width: 800px;  /* Profileセクションの横幅を 800pxにする */
+  width: 900px;  /* Profileセクションの横幅を 800pxにする */
   margin: 0 auto;  /* Profileセクションを画面の中央に配置する */
 }
 
@@ -229,13 +230,6 @@ body {
   flex: 1 1 0%;
 }
 
-h1 {
-  padding-top: 5px;
-  padding-right: 8px;
-  padding-bottom: 5px;
-  padding-left: 7px; ;
-}
-
 
 .profile-name,
 .profile-skill {
@@ -243,6 +237,7 @@ h1 {
   margin-bottom: 10px;
   font-weight: bold;
 }
+
 
 /* 親要素に FlexBox（display: flex）を適用 */
 .img_and_myname_and_myskill {
