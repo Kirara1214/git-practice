@@ -189,13 +189,18 @@ body {
 }
 
 /* Profileコンテンツ */
+
+
+
 .profile-content {
   display: flex; /* Flexboxを適用 */
   align-items: flex-start; /* 揃え */
   justify-content: flex-start; /* 揃え */
   gap: 185px; /* 要素間の余白 */
   margin-top: 30px;
+  padding-bottom: 90px;
 }
+
 
 * {
   box-sizing: border-box;
