@@ -152,6 +152,7 @@ footer {
 /* ===== 全体のスタイル ===== */
 body {
   font-family: Arial, sans-serif;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -196,7 +197,7 @@ body {
   display: flex; /* Flexboxを適用 */
   align-items: flex-start; /* 揃え */
   justify-content: flex-start; /* 揃え */
-  gap: 185px; /* 要素間の余白 */
+  gap: 200px; /* 要素間の余白 */
   margin-top: 30px;
   padding-bottom: 90px;
 }
