@@ -151,8 +151,8 @@ footer {
 
 /* ===== 全体のスタイル ===== */
 body {
-  font-family: Arial, sans-serif;
   font-size: 20px;
+  font-family: Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -197,16 +197,14 @@ body {
   display: flex; /* Flexboxを適用 */
   align-items: flex-start; /* 揃え */
   justify-content: flex-start; /* 揃え */
-  gap: 200px; /* 要素間の余白 */
+  gap: 100px; /* 要素間の余白 */
   margin-top: 30px;
-  padding-bottom: 90px;
 }
 
 
 * {
   box-sizing: border-box;
   margin: 0px;
-  padding: 30px 0;
   padding: 0px;
 }
 
@@ -217,7 +215,7 @@ body {
  }
 
  .profile {
-  width: 900px;  /* Profileセクションの横幅を 800pxにする */
+  width: 800px;  /* Profileセクションの横幅を 800pxにする */
   margin: 0 auto;  /* Profileセクションを画面の中央に配置する */
 }
 
